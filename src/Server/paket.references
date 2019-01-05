@@ -1,6 +1,7 @@
 group Server
-    FSharp.Core
-    Giraffe
-    Microsoft.AspNetCore
-    Microsoft.AspNetCore.StaticFiles
-    Thoth.Json.Giraffe
+FSharp.Core
+Giraffe
+Microsoft.AspNetCore
+Microsoft.AspNetCore.StaticFiles
+Thoth.Json.Giraffe
+Frank

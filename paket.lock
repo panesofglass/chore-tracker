@@ -1,3 +1,5 @@
+
+
 GROUP Build
 STORAGE: NONE
 RESTRICTION: == netstandard2.0
@@ -625,18 +627,22 @@ NUGET
 
 GROUP Server
 STORAGE: NONE
-RESTRICTION: == netcoreapp2.1
+RESTRICTION: == netcoreapp2.2
 NUGET
   remote: https://api.nuget.org/v3/index.json
+    Frank (5.0.1)
+      FSharp.Core (>= 4.3.4)
+      Microsoft.AspNetCore.Hosting (>= 2.2)
+      Microsoft.AspNetCore.Routing (>= 2.2)
     FSharp.Core (4.5.4)
-    Giraffe (3.4)
+    Giraffe (3.5)
       FSharp.Core (>= 4.5.2)
-      Microsoft.AspNetCore.Authentication (>= 2.1.2)
-      Microsoft.AspNetCore.Authorization (>= 2.1.2)
-      Microsoft.AspNetCore.Diagnostics (>= 2.1.1)
-      Microsoft.AspNetCore.Hosting.Abstractions (>= 2.1.1)
-      Microsoft.AspNetCore.ResponseCaching (>= 2.1.1)
-      Newtonsoft.Json (>= 11.0.2)
+      Microsoft.AspNetCore.Authentication (>= 2.2)
+      Microsoft.AspNetCore.Authorization (>= 2.2)
+      Microsoft.AspNetCore.Diagnostics (>= 2.2)
+      Microsoft.AspNetCore.Hosting.Abstractions (>= 2.2)
+      Microsoft.AspNetCore.ResponseCaching (>= 2.2)
+      Newtonsoft.Json (>= 12.0.1)
       System.Text.RegularExpressions (>= 4.3)
       System.Xml.XmlSerializer (>= 4.3)
       TaskBuilder.fs (>= 2.1)
