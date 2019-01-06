@@ -630,7 +630,7 @@ STORAGE: NONE
 RESTRICTION: == netcoreapp2.2
 NUGET
   remote: https://api.nuget.org/v3/index.json
-    Frank (5.0.3)
+    Frank (5.0.4)
       FSharp.Core (>= 4.3.4)
       Microsoft.AspNetCore.Hosting (>= 2.2)
       Microsoft.AspNetCore.Routing (>= 2.2)
