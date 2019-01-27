@@ -7,15 +7,17 @@ open Microsoft.AspNetCore.Hosting
 open Microsoft.AspNetCore.Http
 open Microsoft.Extensions.DependencyInjection
 
-open Frank
 open Frank.Builder
 open FSharp.Control.Tasks.V2.ContextInsensitive
 open Giraffe
+open OpenAPITypeProvider
 open Shared
 
 
 let publicPath = Path.GetFullPath "../Client/public"
 let port = 8085us
+
+type PetStore = OpenAPIV3Provider<"../Client/public/PetStore.yaml">
 
 module Views =
     open GiraffeViewEngine

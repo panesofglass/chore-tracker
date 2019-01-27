@@ -10,6 +10,7 @@ group Server
     nuget Giraffe
     nuget Microsoft.AspNetCore
     nuget Microsoft.AspNetCore.StaticFiles
+    nuget OpenApiTypeProvider
     nuget Thoth.Json.Giraffe
 
 group Client
