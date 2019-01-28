@@ -18,6 +18,8 @@ let publicPath = Path.GetFullPath "../Client/public"
 let port = 8085us
 
 type PetStore = OpenAPIV3Provider<"../Client/public/PetStore.yaml">
+let petStore = PetStore()
+//let pets = petStore.Paths.``/pets`` // Cannot load System.Private.CoreLib.dll
 
 module Views =
     open GiraffeViewEngine
